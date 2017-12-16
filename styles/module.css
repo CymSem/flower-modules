@@ -7,27 +7,52 @@
 
 
 section {
-        box-sizing:border-box
+        box-sizing:border-box;
         width:33%;
         padding:.5em;
         margin:.5em;
-        border:3px solid #DDD;
+        border:5px solid #DDD;
+}
+.clearfix:after {
+        content:"";
+        display: block;
+        clear: both;
+  
+}
+
+.strikethrough {
+            text-decoration: line-through;
+}
+
+}
+li (
+        circle: 50%;
+)
+
 }
 .bg-red {
-        border-radius: 30%;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 50%;
+        color:red;
 }
-.br-yellow {
-        border-radius: 30%;
+.bg-yellow {
+        border-radius: 50%;
+        color:yellow;
 }
-.br-pink {
-        border-radius: 30%;
+.bg-pink {
+        border-radius: 50%;
+        color:hotpink;
+        
 }
 
 a:hover {
    background-color: greenyellow;
+   color:deepskyblue;
 }
 img {
-  width 1em;
-  height: auto
-  float:left;
+  max-width 200px;
+  height:15em;
+  margin:.1em;
+  float:right;
 }
