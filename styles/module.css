@@ -1,0 +1,15 @@
+/* style for flower modules */
+
+.bg-red {
+        border-radius: 30%;
+}
+.br-yellow {
+        border-radius: 30%;
+}
+.br-pink {
+        border-radius: 30%;
+}
+
+a:hover {
+   background-color: greenyellow;
+}
