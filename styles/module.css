@@ -12,6 +12,7 @@ section {
         padding:.5em;
         margin:.5em;
         border:5px solid #DDD;
+        float:left;
 }
 .clearfix:after {
         content:"";
@@ -23,33 +24,38 @@ section {
 .strikethrough {
             text-decoration: line-through;
 }
-
-}
-li (
-        circle: 50%;
-)
-
-}
-.bg-red {
-        border: 2px solid black;
-        padding: 10px;
+li {
         border-radius: 50%;
-        color:red;
+        height: 2rem;
+        width: 2rem;
+        float: left;
+        margin:.5rem;
+
+}
+
+.bg-red {
+        background-color: red;
+        color: red;
 }
 .bg-yellow {
-        border-radius: 50%;
-        color:yellow;
+        background-color: yellow;
+        color: yellow;
+  
 }
 .bg-pink {
-        border-radius: 50%;
-        color:hotpink;
-        
+        background-color: hotpink;
+        color: hotpink;
 }
 
 a:hover {
    background-color: greenyellow;
    color:deepskyblue;
 }
+
+.button {
+        outline-color: deeppink;
+}
+
 img {
   max-width 200px;
   height:15em;
