@@ -1,5 +1,18 @@
 /* style for flower modules */
 
+.container {
+        width:90%
+        height:default;
+}
+
+
+section {
+        box-sizing:border-box
+        width:33%;
+        padding:.5em;
+        margin:.5em;
+        border:3px solid #DDD;
+}
 .bg-red {
         border-radius: 30%;
 }
@@ -12,4 +25,9 @@
 
 a:hover {
    background-color: greenyellow;
+}
+img {
+  width 1em;
+  height: auto
+  float:left;
 }
